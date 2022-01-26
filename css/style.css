@@ -1,0 +1,281 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+/* NAVIGATION BAR */
+nav {
+    top: 0px;
+    bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+    font-size: 20px;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}   
+  
+li a:hover {
+    background-color: #111;
+}
+
+li p {
+    position: absolute;
+    top: -5px;
+    right: 70px;
+    font-size: 20px;
+    color: white;
+}
+
+li img {
+    width: 40px;
+    height: 40px;
+    top: 6px;
+    right: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+/* HOME */
+
+#img-home {
+    display: block;
+     object-fit: cover; 
+     border-radius: 0px; 
+     width: 100%; 
+     height: 30vh; 
+     opacity: 1; 
+     object-position: center 50%;
+}
+
+#add-article{
+    text-decoration: none;
+    color: #fff;
+    background-color: #28a745;
+    font-weight: bold;
+    padding: 10px;
+    font-size:20px;
+    margin-left: auto;
+    margin-right:auto;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+
+#add-article:hover {
+    color: #28a745;
+    transition: 0.2s;
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #28a745;
+}
+
+.title-with-border {
+    margin-top: 80px;
+    margin-left: 260px;
+    border-left: 5px solid;
+    padding-left: 20px;
+}
+
+.card {
+    width: 1000px;
+    height: 230px;
+    margin: 70px auto;
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+}
+
+.card-profil {
+    width: 1000px;
+    margin: 70px auto;
+    background-color: white;
+    box-shadow: 0px 5px 20px #999;
+}
+
+.card a {
+    color: #333; 
+    text-decoration: none;
+}
+  
+.card:hover .card-image img {
+    width: 160%;
+    filter: grayscale(0);
+}
+
+.card-body {
+    text-align:center;
+    padding: 35px;
+    box-sizing: border-box;
+}
+
+.card-body-detail {
+    text-align:center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+  
+.card-date, .card-title {
+    text-align:center;
+    font-weight: bold;
+}
+  
+.card-date, .card-excerpt {
+    color: #777;
+}
+
+/* FORM */
+
+.login_form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.login_form p {
+    color: white;
+    text-decoration: none;
+}
+
+
+.login_form a {
+    color: white;
+    text-decoration: none;
+}
+  
+.login_form h2 {
+    font-size: 30px;
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.login_form .login_box {
+    position: relative;
+}
+  
+.login_form .login_box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
+}
+
+.submit 
+{
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      background: transparent;
+      border: 3px solid #fff;
+}
+
+.submit:hover
+{
+      color: #333;
+      font-size: 20px;
+      font-weight: bold;
+      background: white;
+      border: 3px solid #fff;
+      cursor:  pointer;
+      transition: background 0.3s;
+}
+
+.login_form p a {
+    text-decoration: underline;
+}
+
+.return-home {
+    padding-left: 50px;
+}
+
+.return-home:hover {
+   text-decoration: underline; 
+}
+
+/* ACCOUNT */
+
+#account-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* ADMIN PANEL */
+
+
+.card-admin {
+    float:left;
+    padding: 90px;
+    margin-top: 100px;
+    margin-left: 100px;
+    box-shadow: 0px 5px 20px #999;
+    text-align: center;
+}
+
+.card-admin a {
+    text-decoration: none;
+    color: #111;
+}
+
+.card-admin p {
+    padding-left: 10px;
+}
+
+.card-admin p {
+    padding-left: 10px;
+}
+
+.admin-links {
+    display: list-item;
+}
+
+.admin-links a{
+    text-decoration: underline;
+    margin-left: 250px;
+    padding-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #111;
+}
+
+.button-suppr {
+    background-color: red;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.button-suppr span{
+    color: #fff;
+    font-weight: bold;
+}
